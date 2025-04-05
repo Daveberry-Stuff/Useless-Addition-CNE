@@ -2,6 +2,8 @@
 
 - ~~Playback Rate~~
 
+- ~~Botplay~~
+
 # GAMEPLAY OPTIONS
 
 - ~~Middle Scroll~~
