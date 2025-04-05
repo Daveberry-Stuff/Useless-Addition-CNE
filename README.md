@@ -1,4 +1,4 @@
-<img src="README/codename-animated.webp" width="604.5" height="180.5">
+<img src="codename-animated.webp" width="604.5" height="180.5">
 
 # useless addition addon thing
 
@@ -37,7 +37,7 @@ Just do a issue with "enhancement" label, and I'll go check it!
 
 </details>
 
-# NOTE!
+# KEEP IN MIND!
 
 This will break the mod's "options.xml". Please keep in mind, I cannot fix this.
 
@@ -45,4 +45,6 @@ Or i'll just have to make a custom state out of this addon. I don't know, lol.
 
 #
 
-no this is NOT trying to go focused on a forked engine <img src="README/cakFakYou.webp" width="25" height="25">
+no this is NOT trying to go focused on a forked engine <img src="cakFakYou.webp" width="25" height="25">
+
+note, im not affiliated with codename engine, i love codename engine, i just wanted to make this for fun :) [ily codename engine team!]
