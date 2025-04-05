@@ -1,4 +1,7 @@
-<img src="README/codename-animated.webp"> useless addition addon
+<img src="README/codename-animated.webp">
+<h1 align="center">
+    useless addition addon
+</h1>
 
 # What is this repository?
 
@@ -20,4 +23,4 @@ For more infomation about Codename Engine. <a href="https://codename-engine.com/
 
 #
 
-no this is NOT trying to go focused on a forked engine <img src="README/catFakYou.webp" width="25" height="25">
+no this is NOT trying to go focused on a forked engine <img src="README/cakFakYou.webp" width="25" height="25">
