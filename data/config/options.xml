@@ -6,7 +6,7 @@
         <choice id="UAhudType" name="HUD Type" desc="What kind of hud would you like?">
             <value name="Disabled" value="Disabled"/>
             <value name="Codename Engine" value="Codename Engine"/>
-            <value name="Friday Night Funkin'" value="FNF'"/>
+            <value name="FNF'" value="FNF'"/>
             <value name="Psych Engine" value="Psych Engine"/>
         </choice>
         <checkbox id="UAmiddleScroll" name="Middle Scroll" desc="Tired of looking right (or left) for your arrows? Fear no more, have your arrows in the middle!"/>
