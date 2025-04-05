@@ -1,6 +1,10 @@
+// GAMEPLAY MODIFIERS
+var UAplaybackRate = FlxG.save.data.UAplaybackRate;
+var UAbotplay = FlxG.save.data.UAbotplay;
+
+// GAMEPLAY
 var UAmiddleScroll = FlxG.save.data.UAmiddleScroll;
 var UAopponentArrows = FlxG.save.data.UAopponentArrows;
-var UAplaybackRate = FlxG.save.data.UAplaybackRate;
 var UAhudType = FlxG.save.data.UAhudType;
 
 function postCreate() {
@@ -21,4 +25,5 @@ function create() {
 function onSongStart() {
     // GAMEPLAY MODIFIERS
     inst.pitch = vocals.pitch = UAplaybackRate;
+    playerStrums.cpu = UAbotplay;
 }

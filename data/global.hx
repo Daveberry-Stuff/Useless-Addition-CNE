@@ -1,6 +1,7 @@
 function new() {
     // GAMEPLAY MODIFIERS
     FlxG.save.data.UAplaybackRate ??= 1;
+    FlxG.save.data.UAbotplay ??= false;
 
     // GAMEPLAY OPTIONS
     FlxG.save.data.UAmiddleScroll ??= false;
