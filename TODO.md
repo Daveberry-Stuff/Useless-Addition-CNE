@@ -13,7 +13,7 @@
     - ~~FNF~~
     - ~~Psych Engine~~
 
-- Make Psych Engine Time bar and RatingFC (For Psych Engine Hud)
+- ~~Make Psych Engine Time bar and RatingFC (For Psych Engine Hud)~~
 
 - Lerp Score (FlxMath.lerp)
 
