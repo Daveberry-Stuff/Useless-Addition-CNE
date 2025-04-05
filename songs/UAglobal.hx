@@ -10,7 +10,7 @@ function postCreate() {
 }
 
 function create() {
-    // GAMEPLAY
+    // GAMEPLAY OPTIONS
     importScript("data/options/hud/" + UAhudType + ".hx");
     if (UAmiddleScroll)
         importScript("data/options/middlescroll.hx");
@@ -18,5 +18,7 @@ function create() {
         importScript("data/options/opponentarrows.hx");
 }
 
-function onSongStart()
+function onSongStart() {
+    // GAMEPLAY MODIFIERS
     inst.pitch = vocals.pitch = UAplaybackRate;
+}
