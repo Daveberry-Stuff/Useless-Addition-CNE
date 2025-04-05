@@ -8,23 +8,34 @@
 
 <a href="https://github.com/CodenameCrew/CodenameEngine">Codename Engine Github Repository</a>
 
-# What is this repository?
+<details>
+    <summary> <h2> What is this repository? </h2> </summary>
 
 Well, this respoitory is for useless additions to CNE, like middlescroll or I don't know, anything you can think of.
 
-# Whats the point of this repository?
+</details>
+
+<details>
+    <summary> <h2> Whats the point of this repository? </h2> </summary>
 
 Well, to give the users more options!
 
 And its made for fun lol.
 
-# How do I contribute?
+</details>
 
+<details>
+    <summary> <h2> How do I contribute? </h2> </summary>
 Well, just make a Pull Request!
 
-# How do I suggest something?
+</details>
+
+<details>
+    <summary> <h2> How do I suggest something? </h2> </summary>
 
 Just do a issue with "enhancement" label, and I'll go check it!
+
+</details>
 
 # NOTE!
 
