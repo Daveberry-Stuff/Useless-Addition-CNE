@@ -1,6 +1,6 @@
 # GAMEPLAY MODIFIERS
 
-- Playback Rate
+- ~~Playback Rate~~
 
 # GAMEPLAY OPTIONS
 
@@ -8,10 +8,12 @@
 
 - ~~Option to Hide/Show Opponent Arrows~~
 
-- Selection to change the HUD type
-    - Codename Engine (Default)
-    - FNF' 
-    - Psych Engine
+- ~~Selection to change the HUD type~~
+    - ~~Codename Engine (Default)~~
+    - ~~FNF~~
+    - ~~Psych Engine~~
+
+- Make Psych Engine Time bar and RatingFC (For Psych Engine Hud)
 
 - Lerp Score (FlxMath.lerp)
 
