@@ -1,8 +1,14 @@
 <menu name="Useless Additions" desc="Useless Addition Addon! could be something you like is here!">
     <menu name="Gameplay Modifiers" desc="Gameplay Modifiers like Playback rate and other!">
-        <number id="UAplaybackRate" name="Playback Rate" min="0" max="10" change="0.1" desc="Change how fast you want the song to be! (Note, If a song has split vocals, It cannot pitch the vocals.)"/>
+        <number id="UAplaybackRate" name="Playback Rate" min="0.25" max="10" change="0.1" desc="Change how fast you want the song to be! (Note, If a song has split vocals, It cannot pitch the vocals.)"/>
     </menu>
     <menu name="Gameplay" desc="Gameplay Settings!">
+        <choice id="UAhudType" name="HUD Type" desc="What kind of hud would you like?">
+            <value name="Disabled" value="Disabled"/>
+            <value name="Codename Engine" value="Codename Engine"/>
+            <value name="Friday Night Funkin'" value="FNF'"/>
+            <value name="Psych Engine" value="Psych Engine"/>
+        </choice>
         <checkbox id="UAmiddleScroll" name="Middle Scroll" desc="Tired of looking right (or left) for your arrows? Fear no more, have your arrows in the middle!"/>
         <checkbox id="UAopponentArrows" name="Show Opponent Arrows" desc="Want to hide your opponent arrows? Uncheck this option!"/>
     </menu>
