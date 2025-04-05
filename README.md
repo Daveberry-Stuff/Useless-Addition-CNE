@@ -1,4 +1,4 @@
-<img src="README/codename-animated.webp" width="604.5" height="180.5">
+<img src="README/codename-animated.webp" width="604.5" height="180.5" align="center">
 <h1 align="center">
     useless addition addon thing
 </h1>
