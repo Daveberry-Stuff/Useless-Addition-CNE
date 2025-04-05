@@ -47,4 +47,6 @@ Or i'll just have to make a custom state out of this addon. I don't know, lol.
 
 no this is NOT trying to go focused on a forked engine <img src="cakFakYou.webp" width="25" height="25">
 
-note, im not affiliated with codename engine, i love codename engine, i just wanted to make this for fun :) [ily codename engine team!]
+note, im not affiliated with codename engine, i love codename engine, i just wanted to make this for fun :)
+
+ily codename engine team!
