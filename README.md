@@ -2,9 +2,15 @@
 
 # useless addition addon thing
 
+# INSTALL CODENAME ENGINE HERE!
+
+<a href="https://codename-engine.com/">Codename Engine Website</a>
+
+<a href="https://github.com/CodenameCrew/CodenameEngine">Codename Engine Github Repository</a>
+
 # What is this repository?
 
-Well, this respoitory is for useless additions to CNE, like middlescroll or idk, anything you can think of.
+Well, this respoitory is for useless additions to CNE, like middlescroll or I don't know, anything you can think of.
 
 # Whats the point of this repository?
 
@@ -12,15 +18,15 @@ Well, to give the users more options!
 
 And its made for fun lol.
 
-# What is CNE?
+# How do I contribute?
 
-Well, CNE (Also known as Codename Engine) is a FNF Engine that optimizes the HELL out of FNF unlike psych engine.
+Well, just make a Pull Request!
 
-Softmodding for this engine is also POWERFUL as you can edit the states and make custom states.
+# How do I suggest something?
 
-For more infomation about Codename Engine. <a href="https://codename-engine.com/wiki/">Click Here</a>.
+Just do a issue with "enhancement" label, and I'll go check it!
 
-# NOTE !
+# NOTE!
 
 This will break the mod's "options.xml". Please keep in mind, I cannot fix this.
 
