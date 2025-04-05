@@ -1,0 +1,6 @@
+<menu name="Useless Additions" desc="Useless Addition Addon! could be something you like is here!">
+    <menu name="Gameplay" desc="Gameplay Settings!">
+        <checkbox id="UAmiddleScroll" name="Middle Scroll" desc="Tired of looking right for your arrows? Fear no more, have your arrows in the middle!"/>
+        <checkbox id="UAopponentArrows" name="Show Opponent Arrows" desc="Want to hide your opponent arrows? Uncheck this option!"/>
+    </menu>
+</menu>
