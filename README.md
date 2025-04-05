@@ -1,7 +1,5 @@
-<img src="README/codename-animated.webp" width="604.5" height="180.5" align="center">
-<h1 align="center">
-    useless addition addon thing
-</h1>
+<img src="README/codename-animated.webp" width="604.5" height="180.5">
+# useless addition addon thing
 
 # What is this repository?
 
