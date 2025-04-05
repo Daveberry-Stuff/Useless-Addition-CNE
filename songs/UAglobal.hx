@@ -1,5 +1,6 @@
 var UAmiddleScroll = FlxG.save.data.UAmiddleScroll;
 var UAopponentArrows = FlxG.save.data.UAopponentArrows;
+var UAplaybackRate = FlxG.save.data.UAplaybackRate;
 
 function postCreate() {
     if (!UAopponentArrows)
@@ -14,3 +15,6 @@ function create() {
     if (UAopponentArrows)
         importScript("data/options/opponentarrows.hx");
 }
+
+function onSongStart()
+    inst.pitch = vocals.pitch = UAplaybackRate;
