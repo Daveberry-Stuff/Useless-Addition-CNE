@@ -4,6 +4,8 @@
 
 - ~~Botplay~~
 
+- Practice
+
 # GAMEPLAY OPTIONS
 
 - ~~Middle Scroll~~
@@ -17,7 +19,7 @@
 
 - ~~Make Psych Engine Time bar and RatingFC (For Psych Engine Hud)~~
 
-- Lerp Score (FlxMath.lerp)
+- ~~Lerp Score (FlxMath.lerp)~~
 
 - Lane Underlay
 

@@ -1,5 +1,3 @@
-var UAmiddleScroll = FlxG.save.data.UAmiddleScroll;
-
 function postCreate() {
 	if (!PlayState.opponentMode) {
 		cpuStrums.visible = true;

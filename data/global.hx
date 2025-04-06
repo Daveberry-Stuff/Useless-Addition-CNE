@@ -7,4 +7,5 @@ function new() {
     FlxG.save.data.UAmiddleScroll ??= false;
     FlxG.save.data.UAopponentArrows ??= true;
     FlxG.save.data.UAhudType ??= "Codename Engine";
+    FlxG.save.data.UAlerpScore ??= false;
 }

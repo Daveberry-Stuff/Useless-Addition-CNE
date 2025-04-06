@@ -1,4 +1,3 @@
-
 import flixel.text.FlxTextAlign;
 import flixel.text.FlxTextBorderStyle;
 
@@ -36,7 +35,7 @@ function postCreate() {
 
 function update(elapsed:Float) {
     // RATING TEXT
-    if (accuracy > 0 && accuracy < 0.3) PsychRating = "You Suck!";
+    if (accuracy < 0.3) PsychRating = "You Suck!";
     if (accuracy > 0.3 && accuracy < 0.4) PsychRating = "Shit";
     if (accuracy > 0.4 && accuracy < 0.5) PsychRating = "Bad";
     if (accuracy > 0.5 && accuracy < 0.6) PsychRating = "Bruh";
@@ -62,11 +61,11 @@ function update(elapsed:Float) {
 
     // CHANGING THE TEXT
     if (accuracy < 0) {
-        PsychScoreTxt.text = "Score: " + songScore + " | Misses: " + misses + " | Rating: ?";
+        PsychScoreTxt.text = "Score: " + UAscore + " | Misses: " + misses + " | Rating: ?";
         PsychScoreTxt.screenCenter(FlxAxes.X);
     }
     else {
-        PsychScoreTxt.text = "Score: " + songScore + " | Misses: " + misses + " | Rating: " + PsychRating + " (" + CoolUtil.quantize(accuracy * 100, 100) + "%) - " + PsychratingFC;
+        PsychScoreTxt.text = "Score: " + UAscore + " | Misses: " + misses + " | Rating: " + PsychRating + " (" + CoolUtil.quantize(accuracy * 100, 100) + "%) - " + PsychratingFC;
         PsychScoreTxt.screenCenter(FlxAxes.X);
     }
 }

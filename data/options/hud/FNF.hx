@@ -3,5 +3,10 @@ function postCreate() {
     accuracyTxt.visible = false;
 
     scoreTxt.x -= 70;
-    scoreTxt.y -= 60;
+    if (downscroll)
+        scoreTxt.y -= 60;
+}
+
+function postUpdate() {
+    scoreTxt.text = "Score: " + UAscore;
 }
