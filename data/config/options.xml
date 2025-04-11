@@ -13,5 +13,6 @@
         <checkbox id="UAmiddleScroll" name="Middle Scroll" desc="Tired of looking right (or left) for your arrows? Fear no more, have your arrows in the middle!"/>
         <checkbox id="UAopponentArrows" name="Show Opponent Arrows" desc="Want to hide your opponent arrows? Uncheck this option!"/>
         <checkbox id="UAlerpScore" name="Lerp Score" desc="Make the score... lerp?"/>
+        <checkbox id="UAlaneUnderlay" name="Lane Underlay" desc="Too blind too see the notes? Turn on this for easier reading!"/>
     </menu>
 </menu>

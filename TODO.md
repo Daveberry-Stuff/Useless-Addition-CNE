@@ -10,6 +10,8 @@
 
 - ~~Middle Scroll~~
 
+- ~~When on middlescroll, cpuStrums go 0.5 alpha~~
+
 - ~~Option to Hide/Show Opponent Arrows~~
 
 - ~~Selection to change the HUD type~~
@@ -21,7 +23,7 @@
 
 - ~~Lerp Score (FlxMath.lerp)~~
 
-- Lane Underlay
+- ~~Lane Underlay~~
 
 - Note Skin Support
     - Normal Notes
