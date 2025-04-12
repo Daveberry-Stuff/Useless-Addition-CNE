@@ -3,9 +3,13 @@ public var UAplaybackRate = FlxG.save.data.UAplaybackRate;
 public var UAbotplay = FlxG.save.data.UAbotplay;
 
 // GAMEPLAY
+// STRINGS
+public var UAhudType = FlxG.save.data.UAhudType;
+public var UAnoteSkin = FlxG.save.data.UAnoteSkin;
+
+// BOOLS
 public var UAmiddleScroll = FlxG.save.data.UAmiddleScroll;
 public var UAopponentArrows = FlxG.save.data.UAopponentArrows;
-public var UAhudType = FlxG.save.data.UAhudType;
 public var UAlerpScore = FlxG.save.data.UAlerpScore;
 public var UAlaneUnderlay = FlxG.save.data.UAlaneUnderlay;
 
@@ -59,7 +63,12 @@ function postCreate() {
 }
 
 function create() {
-    importScript("data/hud/" + UAhudType + ".hx");
+    // HUD TYPE
+    importScript("data/scripts/hud/" + UAhudType + ".hx");
+
+    // NOTESKIN
+    if (UAnoteSkin == "Circles-pixel" || UAnoteSkin == "Arrows-pixel")
+        importScript("data/scripts/pixelNote.hx");
 }
 
 function onSongStart() {
@@ -95,4 +104,15 @@ function postUpdate(elapsed:Float) {
     if (UAlaneUnderlay) {
         UAlaneUnderlayBG.x = playerStrums.members[1].x - 100 - 40;
     }
+}
+
+// NOTESKIN
+function onNoteCreation(event) {
+    if (UAnoteSkin != "Circles-pixel" || UAnoteSkin != "Arrows-pixel")
+        event.noteSprite = "game/notes/" + UAnoteSkin;
+}
+
+function onStrumCreation(event) {
+    if (UAnoteSkin != "Circles-pixel" || UAnoteSkin != "Arrows-pixel")
+        event.sprite = "game/notes/" + UAnoteSkin;
 }

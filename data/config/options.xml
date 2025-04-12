@@ -10,6 +10,13 @@
             <value name="FNF" value="FNF"/>
             <value name="Psych Engine" value="Psych Engine"/>
         </choice>
+        <choice id="UAnoteSkin" name="Note Skins" desc="Gettin' tired with the normal note skin? change em! (Disabled type will not change the notes, meaning songs with custom notes will function correctly!)">
+            <value name="Disabled" value="Disabled"/>
+            <value name="Arrows" value="Arrows"/>
+            <value name="Pixel Arrows" value="Arrows-pixel"/>
+            <value name="Circle" value="Circles"/>
+            <value name="Pixel Circle" value="Circles-pixel"/>
+        </choice>
         <checkbox id="UAmiddleScroll" name="Middle Scroll" desc="Tired of looking right (or left) for your arrows? Fear no more, have your arrows in the middle!"/>
         <checkbox id="UAopponentArrows" name="Show Opponent Arrows" desc="Want to hide your opponent arrows? Uncheck this option!"/>
         <checkbox id="UAlerpScore" name="Lerp Score" desc="Make the score... lerp?"/>
